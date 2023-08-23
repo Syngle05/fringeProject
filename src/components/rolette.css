@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.roulette {
+  font-family: "Raleway", sans-serif;
+}
+
+.imgAnimation {
+  opacity: 1;
+  transition: opacity 1.5s; /* Transição lenta quando o mouse sai */
+}
+
+.imgAnimation:hover {
+  opacity: 0.3;
+  transition: opacity 0.5s; /* Transição rápida quando o mouse está sobre */
+}
