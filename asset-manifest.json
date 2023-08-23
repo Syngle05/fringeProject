@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fringeProject/static/css/main.d1eabc41.css",
+    "main.js": "/fringeProject/static/js/main.2b58e8e7.js",
+    "static/media/blue-flower-png.parspng.com_.png": "/fringeProject/static/media/blue-flower-png.parspng.com_.86391473fade375a384e.png",
+    "static/media/drisadora.png": "/fringeProject/static/media/drisadora.4d70fb75ee8df454cdcd.png",
+    "static/media/Dia 14.png": "/fringeProject/static/media/Dia 14.895fca7ebae1b06a518d.png",
+    "static/media/audacia.png": "/fringeProject/static/media/audacia.18cca56edb063ea5f4ae.png",
+    "static/media/tordo1.png": "/fringeProject/static/media/tordo1.218b562a4df5912ed9c6.png",
+    "static/media/kisspng-mockingjay-catching-fire-katniss-everdeen-peeta-me-mockingjay-5b4c658542dd89.png": "/fringeProject/static/media/kisspng-mockingjay-catching-fire-katniss-everdeen-peeta-me-mockingjay-5b4c658542dd89.6159536415317333812739.5e9ce51ed8026c952623.png",
+    "static/media/kisspng-cockatiel-line-art-drawing-cockatoo-clip-art-5af2c4132f1ff1.png": "/fringeProject/static/media/kisspng-cockatiel-line-art-drawing-cockatoo-clip-art-5af2c4132f1ff1.940837301525859347193.96de31d36dd190c99fa1.png",
+    "static/media/ring.png": "/fringeProject/static/media/ring.b136499377461b12565e.png",
+    "static/media/tordo2.png": "/fringeProject/static/media/tordo2.18a37d958c38ce92366e.png",
+    "index.html": "/fringeProject/index.html",
+    "main.d1eabc41.css.map": "/fringeProject/static/css/main.d1eabc41.css.map",
+    "main.2b58e8e7.js.map": "/fringeProject/static/js/main.2b58e8e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1eabc41.css",
+    "static/js/main.2b58e8e7.js"
+  ]
+}
