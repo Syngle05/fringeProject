@@ -1,15 +1,31 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import isadora from "../img/drisadora.png";
 import grafico from "../img/Dia 14.png";
 import { useNavigate } from "react-router-dom";
+import Loading from "./Loading";
 function Main() {
   const myRef = useRef(null);
+  const totalImages = 2; // substitua pelo número total de suas imagens
+  const [loading, setLoading] = useState(true);
+  const [imagesLoaded, setImagesLoaded] = useState(0);
+  console.log(imagesLoaded);
+  const handleImageLoad = () => {
+    setImagesLoaded((prevState) => {
+      const newState = prevState + 1;
+      if (newState === totalImages) {
+        setLoading(false);
+      }
+      return newState;
+    });
+  };
+
   const handleClick = () => {
     myRef.current.scrollIntoView({ behavior: "smooth" });
   };
   const navigate = useNavigate();
   return (
-    <div className="w-full">
+    <div className="w-full ">
+      {loading && <Loading />}
       <div className=" flex items-center justify-center">
         <div className="flex justify-between items-center w-[85%] h-[100vh] mt-4">
           <div className="max-w-[54%]  font-semibold text-[#202020]">
@@ -49,7 +65,7 @@ function Main() {
             </button>
           </div>
           <div className="w-[46%] h-[46%]">
-            <img src={isadora} alt="Isadora Maggi" />
+            <img src={isadora} alt="Isadora Maggi" onLoad={handleImageLoad} />
           </div>
         </div>
       </div>
@@ -77,7 +93,7 @@ function Main() {
         <div className="w-full flex justify-center">
           <div className="flex gap-2 w-[80%] ">
             <div className="w-[50%]  relative">
-              <img src={grafico} alt="grafico" />
+              <img src={grafico} alt="grafico" onLoad={handleImageLoad} />
               <div className="w-full text-center">
                 <span className="text-[#212529] text-sm">
                   Fonte: Gráfico de Isadora Maggi no zap
