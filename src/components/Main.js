@@ -4,6 +4,7 @@ import grafico from "../img/Dia 14.png";
 import { useNavigate } from "react-router-dom";
 import Loading from "./Loading";
 function Main() {
+  console.log("hi");
   const myRef = useRef(null);
   const totalImages = 2; // substitua pelo número total de suas imagens
   const [loading, setLoading] = useState(true);

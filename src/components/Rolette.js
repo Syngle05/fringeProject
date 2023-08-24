@@ -149,8 +149,9 @@ function Rolette() {
       <div className="absolute imgAnimation w-[70px] h-[70px] top-20 left-20">
         <img src={img15} onLoad={handleImageLoad} />
       </div>
+
       <div className="phrase text-lg font-medium absolute right-2 bottom-2">
-        <span>Angústia é fala entupida</span>
+        <span>Angústiagir é fala entupida</span>
       </div>
     </div>
   );
